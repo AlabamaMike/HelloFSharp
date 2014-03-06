@@ -13,6 +13,6 @@ open System.Web.Mvc.Ajax
 type HomeController() =
     inherit Controller()
     member this.Index () =
-        base.ViewData.["Message"] <- "Welcome to F# ASP.NET MVC on Mono!"
+        base.ViewData.["Message"] <- "F# ASP.NET MVC on Mono! For masochists only!!!"
         this.View() :> ActionResult
 
